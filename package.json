@@ -1,0 +1,22 @@
+{
+  "name": "team-api",
+  "version": "1.0.0",
+  "description": "\"practice frontend api for team 3\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABunderson/team-api.git"
+  },
+  "author": "Team 3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ABunderson/team-api/issues"
+  },
+  "homepage": "https://github.com/ABunderson/team-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
