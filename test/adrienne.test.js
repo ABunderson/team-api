@@ -1,5 +1,9 @@
-const response = await fetch('http://localhost:3000/adrienne');
+it("Should get a name", async ()=>{
 
-const name = await response.text();
+    const response = await fetch('http://localhost:3000/adrienne');
 
-expect.(name).toBe("adrienne");
+    const name = await response.text();
+
+    expect(name).toBe("Hello Adrienne");
+
+})
